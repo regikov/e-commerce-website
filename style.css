@@ -22,6 +22,38 @@ header, main, footer {
   margin: 0 auto;
 }
 
+.collection-search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.collection-title {
+  font-size: 1.5rem;
+  color: #000; /* Black color */
+  margin: 0 0 10px 0;
+  padding-right: 20px; /* Adjust this value to move the title to the right */
+}
+
+.collection-description {
+  font-size: 1rem;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
 nav {
   padding: 5px 5%;
   display: flex;
@@ -163,6 +195,16 @@ nav ul li a:hover {
   nav ul {
     display: none;
   }
+
+  .collection-search-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-bar {
+    width: 100%;
+    margin-top: 10px;
+  }
 }
 
 /* ------------------------------------------- */
@@ -177,16 +219,16 @@ nav ul li a:hover {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: 700;
 }
 
 p {
   font-size: 1em;
   line-height: 1.7;
-  font-weight: 600;
-  margin-bottom: 60px;
-  color: black
+  font-weight: 300;
+  margin-bottom: 2px; /* Reduced margin-bottom */
+  color: black;
 }
 
 .description {
@@ -211,7 +253,6 @@ a {
 .box {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   padding: 24px;
   background: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -221,7 +262,6 @@ a {
 .box-top {
   display: flex;
   flex-direction: column;
-  gap: 8px; /* Reduced gap between description lines */
 }
 
 .box-image {
@@ -248,7 +288,8 @@ a {
 
 .price {
   font-size: 1.2em;
-  font-weight: bold; /* Make the price bigger and bold */
+  font-weight: bold; 
+  margin-bottom: 80px;
 }
 
 .user-follow-info {
@@ -266,7 +307,7 @@ a {
   box-shadow: 0px 0px 0px 1px black inset;
   transition: background 0.4s ease;
   position: absolute;
-  bottom: 10px;
+  bottom: 25px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -367,13 +408,24 @@ a {
 .banner {
   width: 100%;
   overflow: hidden;
-  margin-top: -20px; /* Reduce the space above the banner */
+  height: 400px; /* Adjust the height to make the banner slightly shorter */
+  animation: slideIn 1.5s ease-out;
 }
 
 .banner img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
+  object-position: 50% 20%;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
 footer {
