@@ -2,9 +2,14 @@ loadCSV('items.csv', (data) => {
     const inventory = parseCSV(data);
     // --------------------------------------------forget
     console.log(inventory)
+   
+    // sortByName(inventory)
+    // sortByColor(inventory)
+    sortBySize(inventory)
     displayInventory(inventory)
 });
 
+//! ------------------- Display Inventory ---------------
 function displayInventory(inventory){
     const container = document.getElementById("cardsContainer")
     inventory.forEach(item => {
@@ -23,13 +28,67 @@ function displayInventory(inventory){
               <p class="color">Color: ${item.color?item.color:"addIcon"}</p>
               <p class="color">Size: ${item.size?item.size:"One size"}</p>
               <p class="color">Price: ${item.price} $</p>
+               ${item.color?`<p class="info">Color:${item.color}</p>`:""}
+               ${item.size?`<p class="info">Size:${item.size}</p>`:`<p>Volume: 30 ml</p>`}
+              <p class="info price">Price: <span id="price">${item.price}</span></p>
               <a href="#" class="button">Add To Cart</a>
         </div>
         `;
         container.appendChild(itemCard)
     });
-    //----------------------------------------------------- forget
 }
+
+//! ------------------- Sort Inventory ---------------
+
+    //* --------------------Sort by Name ------------------
+    const sortByName = (inventory)=>{
+        inventory.sort((a,b) =>{
+            let itemA = a.name.toLowerCase()
+            let itemB = b.name.toLowerCase()
+            
+            if ( itemA < itemB) return -1;
+            
+            if ( itemA > itemB) return 1;
+            
+            return 0;
+        })
+        return inventory
+    };
+     const sortByPrice = (inventory)=>{
+
+        return inventory
+     }
+
+     const sortByColor = (inventory)=>{
+        inventory.sort((a,b)=>{
+            let itemA = a.color.toLowerCase()
+            let itemB = b.color.toLowerCase()
+            
+            if ( itemA < itemB) return -1;
+            
+            if ( itemA > itemB) return 1;
+            
+            return 0;
+        })
+        return inventory
+     }
+
+     const sortBySize = (inventory)=>{
+        inventory.sort((a,b)=>{
+            let itemA = a.size
+            let itemB = b.size
+            
+            if ( itemA < itemB) return -1;
+            
+            if ( itemA > itemB) return 1;
+            
+            return 0;
+        })
+        return inventory
+     }
+
+//----------------------------------------------------- forget
+
 function loadCSV(url, callback) {
     fetch(url)
         .then(response => response.text())
