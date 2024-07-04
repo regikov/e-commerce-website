@@ -5,7 +5,8 @@ loadCSV('items.csv', (data) => {
    
     // sortByName(inventory)
     // sortByColor(inventory)
-    sortBySize(inventory)
+    // sortBySize(inventory)
+    sortByPrice(inventory)
     displayInventory(inventory)
 });
 
@@ -54,7 +55,7 @@ function displayInventory(inventory){
         return inventory
     };
      const sortByPrice = (inventory)=>{
-
+        inventory.sort((a,b) =>a.price-b.price)
         return inventory
      }
 
