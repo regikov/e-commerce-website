@@ -22,7 +22,7 @@ function displayInventory(inventory){
               </div>
               <p class="color">Color: ${item.color?item.color:"addIcon"}</p>
               <p class="color">Size: ${item.size?item.size:"One size"}</p>
-              <p class="color">Price: ${item.price}</p>
+              <p class="color">Price: ${item.price} $</p>
               <a href="#" class="button">Add To Cart</a>
         </div>
         `;

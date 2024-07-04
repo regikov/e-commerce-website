@@ -184,8 +184,9 @@ h3 {
 p {
   font-size: 1em;
   line-height: 1.7;
-  font-weight: 300;
-  color: var(--text-gray);
+  font-weight: 600;
+  margin-bottom: 60px;
+  color: black
 }
 
 .description {
@@ -210,18 +211,17 @@ a {
 .box {
   display: flex;
   flex-direction: column;
-  position: relative;
+  justify-content: space-between;
   padding: 24px;
   background: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
 .box-top {
   display: flex;
   flex-direction: column;
-  position: relative;
-  gap: 12px;
-  margin-bottom: 36px;
+  gap: 8px; /* Reduced gap between description lines */
 }
 
 .box-image {
@@ -242,6 +242,15 @@ a {
   padding-left: 12px;
 }
 
+.color i {
+  color: red; /* Red color for the 'ban' icon */
+}
+
+.price {
+  font-size: 1.2em;
+  font-weight: bold; /* Make the price bigger and bold */
+}
+
 .user-follow-info {
   color: hsl(0, 0%, 60%);
 }
@@ -251,16 +260,20 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: auto;
   padding: 16px;
   color: #000;
   background: transparent;
   box-shadow: 0px 0px 0px 1px black inset;
   transition: background 0.4s ease;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .button:hover {
-  background: var(--purple);
+  background: #2e7d32; /* Dark green */
+  color: #fff;
 }
 
 .fill-one {
@@ -361,4 +374,34 @@ a {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: #000;
+  font-size: 1.5em;
+}
+
+footer p a {
+  color: #000;
+  text-decoration: none;
 }
