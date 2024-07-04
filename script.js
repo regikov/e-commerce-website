@@ -1,5 +1,6 @@
 loadCSV('items.csv', (data) => {
     const inventory = parseCSV(data);
+    // --------------------------------------------forget
     console.log(inventory)
     displayInventory(inventory)
 });
@@ -17,16 +18,17 @@ function displayInventory(inventory){
                 alt="${item.name}"
               />
               <div class="title-flex">
-                <h3 class="box-title">Name:${item.name}</h3>
+                <h3 class="box-title">${item.name}</h3>
               </div>
-              <p class="color">Color: ${item.color}</p>
-              <p class="color">Size: ${item.size}</p>
+              <p class="color">Color: ${item.color?item.color:"addIcon"}</p>
+              <p class="color">Size: ${item.size?item.size:"One size"}</p>
               <p class="color">Price: ${item.price}</p>
               <a href="#" class="button">Add To Cart</a>
         </div>
         `;
         container.appendChild(itemCard)
     });
+    //----------------------------------------------------- forget
 }
 function loadCSV(url, callback) {
     fetch(url)
