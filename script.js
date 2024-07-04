@@ -6,14 +6,9 @@ loadCSV('items.csv', (data) => {
     // sortByName(inventory)
     // sortByColor(inventory)
     sortBySize(inventory)
-   
-    // sortByName(inventory)
-    // sortByColor(inventory)
-    sortBySize(inventory)
     displayInventory(inventory)
 });
 
-//! ------------------- Display Inventory ---------------
 //! ------------------- Display Inventory ---------------
 function displayInventory(inventory){
     const container = document.getElementById("cardsContainer")
@@ -41,58 +36,6 @@ function displayInventory(inventory){
     });
 }
 
-//! ------------------- Sort Inventory ---------------
-
-    //* --------------------Sort by Name ------------------
-    const sortByName = (inventory)=>{
-        inventory.sort((a,b) =>{
-            let itemA = a.name.toLowerCase()
-            let itemB = b.name.toLowerCase()
-            
-            if ( itemA < itemB) return -1;
-            
-            if ( itemA > itemB) return 1;
-            
-            return 0;
-        })
-        return inventory
-    };
-     const sortByPrice = (inventory)=>{
-
-        return inventory
-     }
-
-     const sortByColor = (inventory)=>{
-        inventory.sort((a,b)=>{
-            let itemA = a.color.toLowerCase()
-            let itemB = b.color.toLowerCase()
-            
-            if ( itemA < itemB) return -1;
-            
-            if ( itemA > itemB) return 1;
-            
-            return 0;
-        })
-        return inventory
-     }
-
-     const sortBySize = (inventory)=>{
-        inventory.sort((a,b)=>{
-            let itemA = a.size
-            let itemB = b.size
-            
-            if ( itemA < itemB) return -1;
-            
-            if ( itemA > itemB) return 1;
-            
-            return 0;
-        })
-        return inventory
-     }
-
-//----------------------------------------------------- forget
-
-}
 
 //! ------------------- Sort Inventory ---------------
 
