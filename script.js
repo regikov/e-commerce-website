@@ -4,9 +4,12 @@ loadCSV('items.csv', (data) => {
     console.log(inventory)
     // sortByName(inventory)
     // sortByColor(inventory)
-    sortBySize(inventory)
+    // sortBySize(inventory)
+    // sortByCategory(inventory)
     // sortByPriceAsc(inventory)
-    displayInventory(inventory)
+    // let searchResult = searchInventory(inventory)
+    displayInventory(filterBySex("Men",inventory))
+    // displayInventory(sortByPriceAsc(filterByCategory("Bottoms", inventory)))
 });
 
 //! ------------------- Display Inventory ---------------
@@ -28,6 +31,7 @@ function displayInventory(inventory){
             
                ${item.color?`<p class="info">Color: ${item.color}</p>`:""}
                ${item.size?`<p class="info">Size: ${item.size}</p>`:`<p>Volume: 30 ml</p>`}
+              <p class="info ">Category: ${item.category} </p>
               <p class="info price">Price: <span id="price">${item.price} $</span></p>
               <a href="#" class="button">Add To Cart</a>
         </div>
@@ -106,6 +110,54 @@ function displayInventory(inventory){
         });
         return inventory;
     };
+
+    //* --------------------Sort by Category ------------------
+    const sortByCategory = (inventory)=>{
+       inventory.sort((a,b)=>{
+        let itemA = a.category.toLowerCase()
+        let itemB = b.category.toLowerCase()
+
+        if(itemA > itemB) return 1;
+
+        if(itemA< itemB) return -1
+
+        return 0;
+       })
+        return inventory
+
+    }
+
+
+//! ------------------- filter Inventory ---------------
+        //* --------------------filter by category ------------------
+    
+    const filterByCategory = (categoryInput, inventory) =>{
+         return inventory.filter((e)=>e.category.toLowerCase()===categoryInput.toLowerCase())
+    }
+
+        //* --------------------filter by sex ------------------
+
+        const filterBySex = (sexInput, inventory) =>{
+            return inventory.filter((e)=>e.sex.toLowerCase()===sexInput.toLowerCase())
+        }
+
+
+//! ------------------- Search Inventory ---------------
+    function searchInventory(inventory){
+        // const searchItem = document.getElementById("searchInput").value.toLowerCase();
+        const searchItem = "women".toLowerCase()
+        const result = []
+        console.log(inventory)
+        for(let i = 0; i < inventory.length; i++){
+            if(inventory[i].name.toLowerCase().includes(searchItem) || 
+            inventory[i].category.toLowerCase() === searchItem || 
+            inventory[i].color.toLowerCase() === searchItem ){
+                console.log(inventory[i])
+                result.push(inventory[i])
+            }
+        }
+        return result
+    }
 
 //----------------------------------------------------- forget
 
