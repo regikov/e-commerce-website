@@ -25,6 +25,9 @@ function displayInventory(inventory){
               <div class="title-flex">
                 <h3 class="box-title">${item.name}</h3>
               </div>
+              <p class="color">Color: ${item.color?item.color:"addIcon"}</p>
+              <p class="color">Size: ${item.size?item.size:"One size"}</p>
+              <p class="color">Price: ${item.price} $</p>
                ${item.color?`<p class="info">Color:${item.color}</p>`:""}
                ${item.size?`<p class="info">Size:${item.size}</p>`:`<p>Volume: 30 ml</p>`}
               <p class="info price">Price: <span id="price">${item.price}</span></p>
