@@ -36,7 +36,6 @@ function displayInventory(inventory){
 }
 
 //! ------------------- Sort Inventory ---------------
-
     //* --------------------Sort by Name ------------------
     const sortByName = (inventory)=>{
         inventory.sort((a,b) =>{
@@ -51,6 +50,8 @@ function displayInventory(inventory){
         })
         return inventory
     };
+
+    //* --------------------Sort by Price ------------------
     const sortByPriceAsc = (inventory)=>{
         inventory.sort((a,b) =>a.price-b.price)
         return inventory
@@ -60,6 +61,7 @@ function displayInventory(inventory){
        return inventory
     }
 
+    //* --------------------Sort by Color ------------------
      const sortByColor = (inventory)=>{
         inventory.sort((a,b)=>{
             let itemA = a.color.toLowerCase()
@@ -73,12 +75,13 @@ function displayInventory(inventory){
         })
         return inventory
      }
-
+    
+    //* --------------------Sort by Size ------------------
      const sortBySize = (inventory) => {
         inventory.sort((a, b) => {
             let itemA = a.size
             let itemB = b.size
-            
+
             // Determine if sizes are strings or numbers
             const aIsNumber = typeof itemA === 'number';
             const bIsNumber = typeof itemB === 'number';
