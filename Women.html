@@ -1,73 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/30db37ddcd.js" crossorigin="anonymous"></script>
-  <script defer src="script.js"></script>
-  <link rel="stylesheet" href="stylesheet2.css">
-  <title>Home Page</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="logo">
-        <img id="logopic" src="pictures/planet-earth.png" alt="Logo">
-        <h1>the greenLabel</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/30db37ddcd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="women.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="sex.css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img id="logopic" src="pictures/planet-earth.png" alt="Logo" />
+          <h1>the greenLabel</h1>
+        </div>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="Men.html">Men</a></li>
+          <li><a href="Women.html">Women</a></li>
+          <li><a href="Unisex.html">Unisex</a></li>
+          <li><a href="Sale.html">Sale</a></li>
+          <li>
+            <a href="#" class="cart-notification">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span class="badge" id="cart-badge">0</span>
+            </a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="collection-search-container">
+        <h1 class="collection-title">Woman Collection</h1>
+        <p class="collection-description">
+          Discover our eco-friendly Man Collection at greenLabel. Stay stylish
+          and sustainable with our range of environmentally conscious women's
+          clothing.
+        </p>
+        <input
+          type="text"
+          class="search-bar"
+          placeholder="Search..."
+          id="searchInput"
+        />
+        <button id="searchButton">Search</button>
       </div>
-      <ul>
-        <li><a href="Home.html">Home</a></li>
-        <li><a href="Men.html">Men</a></li>
-        <li><a href="Women.html">Women</a></li>
-        <li><a href="Unisex.html">Unisex</a></li>
-        <li><a href="Sale.html">Sale</a></li>
-        <li>
-          <a href="#" class="cart-notification">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <span class="badge" id="cart-badge">0</span>
-          </a>
-        </li>
-      </ul>
-      <div class="hamburger">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
+      <nav class="filter-nav">
+        <select id="category-filter">
+          <option value="">Category</option>
+          <option value="bottoms">Bottom</option>
+          <option value="tops">Top</option>
+          <option value="accessories">Accessories</option>
+        </select>
+        <select id="color-filter">
+          <option value="">Color</option>
+          <option value="brown">Brown</option>
+          <option value="black">Black</option>
+          <option value="white">White</option>
+        </select>
+        <select id="size-filter">
+          <option value="">Size</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+        </select>
+        <input type="number" id="price-filter" placeholder="Max Price" />
+      </nav>
+      <div id="cardsContainer" class="cardsContainer">
+        <!-- Cards will be dynamically added here by JavaScript -->
       </div>
-    </nav>
-  </header>
-  <main>
-    <div class="collection-search-container">
-      <h1 class="collection-title">Woman Collection</h1>
-      <p class="collection-description">Discover our eco-friendly Man Collection at greenLabel. Stay stylish and sustainable with our range of environmentally conscious women's clothing.</p>
-      <input type="text" class="search-bar" placeholder="Search...">
-    </div>
-    <nav class="filter-nav">
-      <select id="category-filter">
-        <option value="">Category</option>
-        <option value="bottom">Bottom</option>
-        <option value="top">Top</option>
-        <option value="accessories">Accessories</option>
-      </select>
-      <select id="color-filter">
-        <option value="">Color</option>
-        <option value="brown">Brown</option>
-        <option value="black">Black</option>
-        <option value="white">White</option>
-      </select>
-      <select id="size-filter">
-        <option value="">Size</option>
-        <option value="S">S</option>
-        <option value="M">M</option>
-        <option value="L">L</option>
-        <option value="XL">XL</option>
-      </select>
-      <input type="number" id="price-filter" placeholder="Max Price">
-    </nav>
-    <div id="cardsContainer" class="cardsContainer">
-      <!-- Cards will be dynamically added here by JavaScript -->
-    </div>
-  </main>
-  <footer></footer>
-</body>
+    </main>
+    <footer></footer>
+  </body>
 </html>
-

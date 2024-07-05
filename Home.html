@@ -1,54 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/30db37ddcd.js" crossorigin="anonymous"></script>
-  <script defer src="script.js"></script>
-  <link rel="stylesheet" href="style.css">
-  <title>Home Page</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="logo">
-        <img id="logopic" src="pictures/planet-earth.png" alt="Logo">
-        <h1>the greenLabel</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/30db37ddcd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="home.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="home.css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img id="logopic" src="pictures/planet-earth.png" alt="Logo" />
+          <h1>the greenLabel</h1>
+        </div>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="Men.html">Men</a></li>
+          <li><a href="Women.html">Women</a></li>
+          <li><a href="Unisex.html">Unisex</a></li>
+          <li><a href="Sale.html">Sale</a></li>
+          <li>
+            <a href="#" class="cart-notification">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span class="badge" id="cart-badge">0</span>
+            </a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="banner">
+        <img
+          src="https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Banner Image"
+        />
       </div>
-      <ul>
-        <li><a href="Home.html">Home</a></li>
-        <li><a href="Men.html">Men</a></li>
-        <li><a href="Women.html">Women</a></li>
-        <li><a href="Unisex.html">Unisex</a></li>
-        <li><a href="Sale.html">Sale</a></li>
-        <li>
-          <a href="#" class="cart-notification">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <span class="badge" id="cart-badge">0</span>
-          </a>
-        </li>
-      </ul>
-      <div class="hamburger">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
+      <div class="collection-search-container">
+        <h1 class="collection-title">Our Collection</h1>
+        <p class="collection-description">
+          At greenLabel, our mission is simple: we bring you stylish and
+          eco-friendly clothing that’s good for you AND for the planet. Shop
+          with us and make a positive impact while looking fantastic!
+        </p>
+        <input
+          type="text"
+          class="search-bar"
+          placeholder="Search..."
+          id="searchInput"
+        />
+        <button id="searchButton">Search</button>
       </div>
-    </nav>
-  </header>
-  <main>
-    <div class="banner">
-      <img src="https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Banner Image">
-    </div>
-    <div class="collection-search-container">
-      <h1 class="collection-title">Our Collection</h1>
-      <p class="collection-description">At greenLabel, our mission is simple: we bring you stylish and eco-friendly clothing that’s good for you AND for the planet. Shop with us and make a positive impact while looking fantastic!</p>
-      <input type="text" class="search-bar" placeholder="Search...">
-    </div>
-    <div id="cardsContainer" class="cardsContainer">
-      <!-- Cards will be dynamically added here by JavaScript -->
-    </div>
-  </main>
-  <footer></footer>
-</body>
+      <div id="cardsContainer" class="cardsContainer">
+        <!-- Cards will be dynamically added here by JavaScript -->
+      </div>
+    </main>
+    <footer></footer>
+  </body>
 </html>
-
