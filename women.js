@@ -5,13 +5,13 @@ document.addEventListener("DOMContentLoaded", () => {
         const filteredInventory = filterBySex('Women', inventory); 
         displayInventory(filteredInventory);
 
-        // ---------------Event Listener For Search Btn--------------
+        //! ---------------Event Listener For Search Btn--------------
         document.getElementById("searchButton").addEventListener("click", () => {
             const results = searchInventory(filteredInventory);
             displayInventory(results);
         });
 
-        //---------------------Event Listener Filters ------------
+        //!---------------------Event Listener Filters ------------
 
         document.getElementById("category-filter").addEventListener("change", () => {
             applyFilters(filteredInventory);
@@ -91,6 +91,7 @@ function searchInventory(inventory) {
     }
     return result;
 }
+//! ------------------- Filter Inventory ---------------
 
 //* --------------------filter by sex ------------------
 
