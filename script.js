@@ -3,6 +3,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const inventory = parseCSV(data);
         initializePage(inventory); // Call the specific page's initialization function
     });
+
+    document.getElementById('cartButton').addEventListener('click', toggleCheckoutBar);
+    document.getElementById('payButton').addEventListener('click', clearCart);
 });
 
 function loadCSV(url, callback) {
@@ -32,7 +35,7 @@ function parseCSV(data) {
 
 function displayInventory(inventory) {
     const container = document.getElementById("cardsContainer");
-    container.innerHTML = ''; // Clear previous inventory display
+    container.innerHTML = ''; 
     inventory.forEach(item => {
         const itemCard = document.createElement('div');
         itemCard.classList.add('box');
@@ -54,27 +57,26 @@ function displayInventory(inventory) {
     attachAddToCartEventListeners(inventory);
 }
 
-// Cart functionality
+//! -----------------Cart Functionalities--------------
 let cart = [];
 
 function addToCart(item) {
     cart.push(item);
-    updateCartNotification(); // Update the cart notification
-    updateCartDisplay(); // Update the cart display in the checkout bar
-
+    updateCartNotification(); 
+    updateCartDisplay(); 
 }
 
 function updateCartNotification() {
     const cartBadge = document.getElementById('cart-badge');
-    cartBadge.textContent = cart.length; // Update the badge with the number of items in the cart
+    cartBadge.textContent = cart.length; 
 }
 
 
-//! -----------------Update Cart Display--------------
+//* -----------------Update Cart Display--------------
 function updateCartDisplay() {
     const cartItemsContainer = document.getElementById('cartItems');
     const totalPriceElement = document.getElementById('totalPrice');
-    cartItemsContainer.innerHTML = ''; // Clear previous cart items
+    cartItemsContainer.innerHTML = '';
 
     let totalPrice = 0;
 
@@ -85,15 +87,16 @@ function updateCartDisplay() {
         totalPrice += parseFloat(item.price);
     });
 
-    totalPriceElement.textContent = totalPrice.toFixed(2); // Update the total price
+    totalPriceElement.textContent = totalPrice.toFixed(2); 
 }
 
-// --------------------clearCart------------------------
+//* --------------------clearCart------------------------
 function clearCart() {
     cart = [];
     updateCartNotification();
     updateCartDisplay();
     alert("Thanks for your visit!");
+    toggleCheckoutBar();
 }
 document.getElementById('payButton').addEventListener('click', clearCart);
 
@@ -107,6 +110,11 @@ function attachAddToCartEventListeners(inventory) {
             addToCart(item);
         });
     });
+}
+// -----------------Show/Hide Cart---------------
+function toggleCheckoutBar() {
+    const checkoutBar = document.getElementById('checkoutBar');
+    checkoutBar.classList.toggle('show');
 }
 // Filtering and sorting functions
 function filterByCategory(categoryInput, inventory) {
