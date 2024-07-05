@@ -55,18 +55,33 @@
         />
         <button id="searchButton">Search</button>
       </div>
-      <nav class="filter-nav">
+      <nav id="categoryForm" class="filter-nav">
         <select id="category-filter">
           <option value="">Category</option>
-          <option value="bottoms">Bottom</option>
-          <option value="tops">Top</option>
-          <option value="accessories">Accessories</option>
+          <option value="Tops">Tops</option>
+          <option value="Bottoms">Bottoms</option>
+          <option value="Outerwear">Outerwear</option>
+          <option value="Dresses">Dresses</option>
+          <option value="Accessories">Accessories</option>
+          <option value="Fragrance">Fragrance</option>
         </select>
         <select id="color-filter">
           <option value="">Color</option>
-          <option value="brown">Brown</option>
-          <option value="black">Black</option>
-          <option value="white">White</option>
+          <option value="Black">Black</option>
+          <option value="Blue">Blue</option>
+          <option value="Gray">Gray</option>
+          <option value="Red">Red</option>
+          <option value="Khaki">Khaki</option>
+          <option value="White">White</option>
+          <option value="Beige">Beige</option>
+          <option value="Navy">Navy</option>
+          <option value="Charcoal">Charcoal</option>
+          <option value="Olive">Olive</option>
+          <option value="Purple">Purple</option>
+          <option value="Plaid">Plaid</option>
+          <option value="Brown">Brown</option>
+          <option value="Silver">Silver</option>
+          <option value="Gold">Gold</option>
         </select>
         <select id="size-filter">
           <option value="">Size</option>
@@ -74,12 +89,24 @@
           <option value="M">M</option>
           <option value="L">L</option>
           <option value="XL">XL</option>
+          <option value="32">32</option>
+          <option value="42">42</option>
+          <option value="34">34</option>
+          <option value="One Size">One Size</option>
         </select>
         <input type="number" id="price-filter" placeholder="Max Price" />
       </nav>
       <div id="cardsContainer" class="cardsContainer">
         <!-- Cards will be dynamically added here by JavaScript -->
       </div>
+      <aside class="checkout-bar" id="checkoutBar">
+        <h2>Cart</h2>
+        <ul id="cartItems">
+          <!-- Cart items will be dynamically added here -->
+        </ul>
+        <p>Total: $<span id="totalPrice">0.00</span></p>
+        <button id="payButton">Pay</button>
+      </aside>
     </main>
     <footer></footer>
   </body>
