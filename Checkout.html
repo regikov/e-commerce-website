@@ -1,55 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/30db37ddcd.js" crossorigin="anonymous"></script>
-  <script defer src="checkout.js"></script>
-  <link rel="stylesheet" href="stylesheet4.css">
-  <title>Checkout Page</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="logo">
-        <img id="logopic" src="pictures/planet-earth.png" alt="Logo">
-        <h1>the greenLabel</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/30db37ddcd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="checkout.js"></script>
+    <link rel="stylesheet" href="checkout.css" />
+    <title>Checkout Page</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img id="logopic" src="pictures/planet-earth.png" alt="Logo" />
+          <h1>the greenLabel</h1>
+        </div>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="Men.html">Men</a></li>
+          <li><a href="Women.html">Women</a></li>
+          <li><a href="Unisex.html">Unisex</a></li>
+          <li><a href="Sale.html">Sale</a></li>
+          <li>
+            <a href="#" class="cart-notification">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span class="badge" id="cart-badge">0</span>
+            </a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="collection-search-container">
+        <h1 class="collection-title">Checkout</h1>
+        <p class="collection-description">
+          Review your items and proceed to payment
+        </p>
       </div>
-      <ul>
-        <li><a href="Home.html">Home</a></li>
-        <li><a href="Men.html">Men</a></li>
-        <li><a href="Women.html">Women</a></li>
-        <li><a href="Unisex.html">Unisex</a></li>
-        <li><a href="Sale.html">Sale</a></li>
-        <li>
-          <a href="#" class="cart-notification">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <span class="badge" id="cart-badge">0</span>
-          </a>
-        </li>
-      </ul>
-      <div class="hamburger">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
+      <div id="cartContainer" class="cardsContainer">
+        <!-- Cart items will be dynamically added here by JavaScript -->
       </div>
-    </nav>
-  </header>
-  <main>
-    <div class="collection-search-container">
-      <h1 class="collection-title">Checkout</h1>
-      <p class="collection-description">Review your items and proceed to payment</p>
-    </div>
-    <div id="cartContainer" class="cardsContainer">
-      <!-- Cart items will be dynamically added here by JavaScript -->
-    </div>
-    <div class="summary">
-      <h2>Summary</h2>
-      <p id="total-items">Total items: 0</p>
-      <p id="total-price">Total price: $0</p>
-      <button id="pay-button" class="button">Pay Now</button>
-    </div>
-  </main>
-  <footer></footer>
-</body>
+      <div class="summary">
+        <h2>Summary</h2>
+        <p id="total-items">Total items: 0</p>
+        <p id="total-price">Total price: $0</p>
+        <button id="pay-button" class="button">Pay Now</button>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
 </html>
