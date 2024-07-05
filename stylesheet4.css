@@ -32,7 +32,7 @@ header, main, footer {
   padding: 30px;
   text-align: center;
   margin-top: 30px;
-  margin-bottom:20px
+  margin-bottom: 20px;
 }
 
 .collection-title {
@@ -67,7 +67,6 @@ nav {
   z-index: 1;
   margin-bottom: 20px;
   margin-top: 20px;
-  border-style: double;
 }
 
 nav .logo {
@@ -118,13 +117,12 @@ nav ul li a:hover {
 
 .cart-notification .badge {
   position: absolute;
-  top: -5px;
-  right: -5px;
-  padding: 3px 5px;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
   border-radius: 50%;
   background: red;
   color: white;
-  font-size: 0.75rem;
 }
 
 .hamburger {
@@ -228,7 +226,6 @@ nav ul li a:hover {
   }
 }
 
-/* ------------------------------------------- */
 :root {
   --purple: hsl(240, 80%, 89%);
   --pink: hsl(0, 59%, 94%);
@@ -271,7 +268,6 @@ a {
   margin: 0 auto;
 }
 
-
 .box {
   display: flex;
   flex-direction: column;
@@ -285,7 +281,7 @@ a {
   transform: translateY(-10px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   background-color: #e5e5d3;
-  }
+}
 
 .box-top {
   display: flex;
@@ -341,15 +337,35 @@ a {
   color: #fff;
 }
 
-.fill-one {
-  background: var(--light-bg);
+.summary {
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  text-align: center;
 }
 
-.fill-two {
-  background: var(--pink);
+.summary h2 {
+  margin-bottom: 10px;
 }
 
-/* RESPONSIVE QUERIES */
+.summary p {
+  margin: 5px 0;
+}
+
+#pay-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #28a145;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#pay-button:hover {
+  background-color: #218838;
+}
 
 @media (min-width: 320px) {
   .title-flex {
