@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #d2e1d2; /* Light green background color */
+  background-color: #e8d6fe; /* Light green background color */
 }
 
 header, main, footer {
@@ -32,7 +32,7 @@ header, main, footer {
   padding: 30px;
   text-align: center;
   margin-top: 30px;
-  margin-bottom:20px
+  margin-bottom: 20px;
 }
 
 .collection-title {
@@ -117,15 +117,15 @@ nav ul li a:hover {
 }
 
 .cart-notification .badge {
-  position: absolute;
-  top: -5px;
-  right: -5px;
-  padding: 3px 5px;
-  border-radius: 50%;
-  background: red;
-  color: white;
-  font-size: 0.75rem;
-}
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    padding: 3px 5px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    font-size: 0.75rem;
+  }
 
 .hamburger {
   display: none;
@@ -228,7 +228,6 @@ nav ul li a:hover {
   }
 }
 
-/* ------------------------------------------- */
 :root {
   --purple: hsl(240, 80%, 89%);
   --pink: hsl(0, 59%, 94%);
@@ -271,7 +270,6 @@ a {
   margin: 0 auto;
 }
 
-
 .box {
   display: flex;
   flex-direction: column;
@@ -285,7 +283,7 @@ a {
   transform: translateY(-10px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   background-color: #e5e5d3;
-  }
+}
 
 .box-top {
   display: flex;
@@ -347,6 +345,23 @@ a {
 
 .fill-two {
   background: var(--pink);
+}
+
+/* Filter Navigation Bar */
+.filter-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-nav select,
+.filter-nav input {
+  padding: 10px;
+  border: 1px solid #28a145;
+  border-radius: 5px;
+  font-size: 1rem;
 }
 
 /* RESPONSIVE QUERIES */

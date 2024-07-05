@@ -37,6 +37,29 @@ function displayInventory(inventory){
     });
 }
 
+// Attach event listeners to all add-to-cart buttons
+const addToCartButtons = document.querySelectorAll('.add-to-cart-button');
+addToCartButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const itemId = button.getAttribute('data-item-id');
+    const item = inventory.find(i => i.id == itemId);
+    addToCart(item);
+  });
+});
+
+let cart = [];
+
+// Function to add an item to the cart
+function addToCart(item) {
+cart.push(item);
+updateCartNotification(); // Update the cart notification
+}
+
+// Function to update the cart notification
+function updateCartNotification() {
+const cartBadge = document.getElementById('cart-badge');
+cartBadge.textContent = cart.length; // Update the badge with the number of items in the cart
+}
 
 //! ------------------- Sort Inventory ---------------
 

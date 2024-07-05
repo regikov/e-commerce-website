@@ -1,51 +1,48 @@
 id,name,category,price,color,size,sex,photo_url
-1,Men's T-Shirt,Tops,19.99,Black,M,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-2,Women's Jeans,Bottoms,29.99,Blue,S,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-3,Men's Hoodie,Outerwear,39.99,Gray,L,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-4,Women's Dress,Dresses,49.99,Red,M,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-5,Men's Shorts,Bottoms,24.99,Khaki,L,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-6,Women's Blouse,Tops,22.99,White,M,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-7,Women's T-Shirt,Tops,18.99,Gray,S,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-8,Men's Jeans,Bottoms,34.99,Black,L,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-9,Women's Jacket,Outerwear,59.99,Black,M,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-10,Men's Sweater,Tops,44.99,Blue,XL,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-11,Women's Skirt,Bottoms,26.99,Black,S,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-12,Men's Polo Shirt,Tops,29.99,Red,M,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-13,Women's Cardigan,Tops,39.99,Beige,L,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-14,Men's Jacket,Outerwear,54.99,Navy,XL,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-15,Women's Leggings,Bottoms,21.99,Black,S,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-16,Men's Dress Shirt,Tops,49.99,White,M,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-17,Women's Sweater,Tops,37.99,Gray,M,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-18,Men's Chinos,Bottoms,31.99,Beige,32,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-19,Women's Blazer,Outerwear,69.99,Black,L,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-20,Men's Sweatpants,Bottoms,27.99,Gray,XL,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-21,Women's Romper,Dresses,34.99,Blue,M,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-22,Men's Suit,Outerwear,99.99,Charcoal,42,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-23,Women's Jumpsuit,Dresses,39.99,Black,M,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-24,Men's Tank Top,Tops,14.99,White,M,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-25,Women's Polo Shirt,Tops,26.99,Navy,S,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-26,Men's Cargo Shorts,Bottoms,29.99,Olive,34,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-27,Women's Tank Top,Tops,12.99,Black,S,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-28,Men's Blazer,Outerwear,79.99,Gray,42,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-29,Women's Sweatpants,Bottoms,24.99,Gray,M,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-30,Men's Cardigan,Tops,34.99,Charcoal,L,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-31,Women's Hoodie,Outerwear,44.99,Purple,S,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-32,Men's Flannel Shirt,Tops,37.99,Plaid,L,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-33,Women's Parka,Outerwear,89.99,Olive,L,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-34,Men's Swim Trunks,Bottoms,19.99,Blue,L,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-35,Women's Trench Coat,Outerwear,79.99,Beige,M,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-36,Men's Beanie,Accessories,12.99,Black,One Size,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-37,Women's Sunglasses,Accessories,19.99,Black,One Size,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-38,Men's Belt,Accessories,14.99,Brown,32,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-39,Women's Scarf,Accessories,16.99,Red,One Size,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-40,Men's Watch,Accessories,49.99,Silver,One Size,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-41,Women's Handbag,Accessories,39.99,Black,One Size,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-42,Men's Socks,Accessories,8.99,Gray,One Size,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-43,Women's Gloves,Accessories,11.99,Black,One Size,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-44,Men's Backpack,Accessories,54.99,Blue,One Size,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-45,Women's Earrings,Accessories,9.99,Gold,One Size,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-46,Men's Wallet,Accessories,24.99,Black,One Size,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-47,Women's Necklace,Accessories,14.99,Silver,One Size,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-48,Men's Cologne,Fragrance,39.99,,,Men,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-49,Women's Perfume,Fragrance,49.99,,,Women,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
-50,Unisex Cologne,Fragrance,34.99,,,Unisex,https://www.kasper.com/cdn/shop/files/10909029-0HF-FRONT_660d69e7-0169-4b5f-9efc-7e6e65827f69.jpg?v=1717690068
+1,Men's T-Shirt,Tops,19.99,Black,M,Men,https://img.freepik.com/free-photo/blue-t-shirt_125540-727.jpg?t=st=1720121202~exp=1720124802~hmac=f2816613bc07a150cf70b1dc6d88316a4169c1f2788dc4941f966ee7c75246ce&w=1380
+2,Women's Jeans,Bottoms,29.99,Blue,S,Women, https://img.freepik.com/free-photo/jeans_1203-8094.jpg?t=st=1720121535~exp=1720125135~hmac=87d787a62791508743118641fa632823d1485509b4edae84de617e951cc282a0&w=996
+3,Men's Hoodie,Outerwear,39.99,Gray,L,Men,https://img.freepik.com/free-photo/close-up-beautiful-hoodie-mockup_23-2149246256.jpg?t=st=1720121620~exp=1720125220~hmac=128285f6ccaba59447318fe5ff8b9f242933fe87df3b591401186893e5ca9e3b&w=740
+4,Women's Dress,Dresses,49.99,Red,M,Women,https://img.freepik.com/free-photo/fast-fashion-vs-slow-sustainable-fashion_23-2149133998.jpg?t=st=1720121690~exp=1720125290~hmac=e727a3d82cb7f1d829d060a70fc6f336550700e9d585a3b9bbaf66f383c2ba96&w=740
+5,Men's Shorts,Bottoms,24.99,Khaki,L,Men,https://img.freepik.com/free-photo/casual-men-short-pants_1203-8171.jpg?t=st=1720121901~exp=1720125501~hmac=366caa3b58d4ce55f7fa886a7f80d6e3846c693753baf4a9043fa8f78931896b&w=1480
+6,Women's Blouse,Tops,22.99,White,M,Women,https://img.freepik.com/free-photo/casual-white-blouse-women-rsquo-s-fashion_53876-101510.jpg?t=st=1720122000~exp=1720125600~hmac=babc724354f0658095381cff905e310f1b65f65eb065a90d181d6d9201efe0f5&w=996
+7,Women's T-Shirt,Tops,18.99,Gray,S,Women,https://img.freepik.com/free-photo/simple-white-v-neck-t-shirt-mockup-wooden-hanger_53876-96985.jpg?t=st=1720122066~exp=1720125666~hmac=b52a795c00def16351bb65195538a4ecdee0f9d7fc20e244ff98fd9c46c89c6f&w=996
+8,Men's Jeans,Bottoms,34.99,Black,L,Men, https://img.freepik.com/free-photo/jeans_1203-8092.jpg?t=st=1720122180~exp=1720125780~hmac=f25d4205d8628c5422135bd1dc6f9878889892be28570c3295dc7fd5d9c0dbe5&w=1380
+9,Women's Jacket,Outerwear,59.99,Black,M,Women,https://img.freepik.com/free-photo/woman-winter-jacket-background-object_1203-6543.jpg?t=st=1720122231~exp=1720125831~hmac=4a508ab26fbd059bbab8a187d188dbd997dd3c8737ff58e9d1e3f3e9a0b8f45e&w=1380
+10,Men's Sweater,Tops,44.99,Blue,XL,Men,https://img.freepik.com/free-photo/green-front-sweater_125540-736.jpg?t=st=1720122351~exp=1720125951~hmac=8cec9a75a68e8d11d7a8f080b855d8df2c616ba42541c179074cc3681bb13e81&w=1380
+12,Men's Polo Shirt,Tops,29.99,Red,M,Men,https://img.freepik.com/free-photo/clean-blank-shirt-hanger_23-2149347549.jpg?t=st=1720122583~exp=1720126183~hmac=abb4d042e09a95a217df5ae998766478ebf8e37493d6e26789d3f2f1bd16e509&w=826
+14,Men's Jacket,Outerwear,54.99,Navy,XL,Men,https://img.freepik.com/free-photo/sport-jacket-clothing_1203-2534.jpg?t=st=1720122704~exp=1720126304~hmac=0824bf45fe65127def7e8d94c8f64b2191eae7e2ef51780c2eb8448eac05df91&w=1480
+15,Women's Leggings,Bottoms,21.99,Black,S,Women,https://img.freepik.com/free-photo/woman-s-yoga-outfit-active-wear_53876-97701.jpg?t=st=1720122779~exp=1720126379~hmac=f53ec0bed17566a33408a628c4f52fde07df76efeb758c07a649eacfb695e63d&w=826
+16,Men's Dress Shirt,Tops,49.99,White,M,Men,https://img.freepik.com/free-photo/shirt-male-folded-mens-clothes_1203-6409.jpg?t=st=1720122891~exp=1720126491~hmac=72cde46253b82c3847294e67714fdb1b49d1d33161ec0731545c6c1d5741831a&w=1380
+17,Women's Sweater,Tops,37.99,Gray,M,Women,https://thumbs.dreamstime.com/b/woman-wool-knitted-pink-sweater-front-view-isolated-white-background-197672010.jpg
+19,Women's Blazer,Outerwear,69.99,Black,L,Women,https://img.freepik.com/free-photo/gray-blazer-front-view-casual-men-s-wear_53876-108035.jpg?t=st=1720123277~exp=1720126877~hmac=42d2ce842b31a447a7f115bfa6d7ad36d8d8d31688104f83b51246e2a860b4e9&w=826
+20,Men's Sweatpants,Bottoms,27.99,Gray,XL,Men,https://assets.needen.ca/files/models/2011/6/29/3292/3292_big.jpg?1444306307
+21,Women's Romper,Dresses,34.99,Blue,M,Women,https://pc-ap.rtrcdn.com/productimages/nomodel/1080x/79/GRJ30.jpg?auto=webp&optimize=medium&width=270
+22,Men's Suit,Outerwear,99.99,Charcoal,42,Men,https://preview.free3d.com/img/2014/06/2206012592575480967/7dv84ny9.jpg
+23,Women's Jumpsuit,Dresses,39.99,Black,M,Women,https://preview.free3d.com/img/2014/08/2188236732858631369/k7o6hfhg.jpg
+24,Men's Tank Top,Tops,14.99,White,M,Men,https://preview.free3d.com/img/2020/10/2454703823650817841/1j2sxxnr.jpg
+25,Women's Polo Shirt,Tops,26.99,Navy,S,Women,https://sun68.com/media/catalog/product/cache/e90cc18d8797d1fa625fa2ffc059d119/A/3/A34202_72_2.jpg
+26,Men's Cargo Shorts,Bottoms,29.99,Olive,34,Men,https://i5.walmartimages.com/asr/04e06aaa-875d-4f69-9cb5-903a201e7eef.30c1927ce46f2bd171852465a5710749.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF
+27,Women's Tank Top,Tops,12.99,Black,S,Women,https://i5.walmartimages.com/seo/No-Boundaries-Juniors-Crop-Rib-Tank-Top-2-Pack_59c26f37-7844-481e-a74a-a804f2d66310.7b262614ccee527a23ba2d0faf4b47eb.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF
+28,Men's Blazer,Outerwear,79.99,Gray,42,Men,https://img.freepik.com/free-photo/gray-blazer-hanger-casual-men-s-fashion-wear_53876-103575.jpg?t=st=1720123838~exp=1720127438~hmac=cbc5381d062e33120350befe28bc9d3e8357097b4b9623af281128ef8b2ffae2&w=826
+29,Women's Sweatpants,Bottoms,24.99,Gray,M,Women,https://jluxlabel.com/cdn/shop/products/IMG_5003copy_1024x.jpg?v=1686411052
+30,Men's Cardigan,Tops,34.99,Charcoal,L,Men,https://stompingground.ca/cdn/shop/products/grey1_f4e96ac8-eb8a-4dd2-baf3-c591d50554c2.jpg?v=1661545770&width=2000
+31,Women's Hoodie,Outerwear,44.99,Purple,S,Women, https://img4.dhresource.com/webp/m/260x260/f3/albu/km/j/12/5cc45d25-ac96-4c29-a95e-729f87ec57ed.jpg
+32,Men's Flannel Shirt,Tops,37.99,Plaid,L,Men,https://cdni.llbean.net/is/image/wim/516090_52043_41?hei=1095&wid=950&resMode=sharp2&defaultImage=llbprod/516090_52043_41
+33,Women's Parka,Outerwear,89.99,Olive,L,Women,https://i5.walmartimages.com/seo/Tuphregyow-Women-Winter-Windproof-Warm-Down-Coats-Trendy-Solid-Long-Sleeve-Loose-Full-Zip-Waterproof-Thicken-Fashion-Puffer-Jacket-Gray-L_b03b5a9f-c4c9-4828-83d8-0cff7ceaa44c.20b8813c56b9105a6cf87ebedfba5089.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF
+34,Men's Swim Trunks,Bottoms,19.99,Blue,L,Men,https://www.mrporter.com/variants/images/45666037504930203/in/w358_q60.jpg
+35,Women's Trench Coat,Outerwear,79.99,Beige,M,Women,https://cms.brnstc.de/product_images/680x930_retina/cpro/media/images/product/24/1/100155900216000_0_1706515987666.jpg
+36,Men's Beanie,Accessories,12.99,Black,One Size,Men,https://abasicshop.com/cdn/shop/files/lift-down-ultrasoft-beanie-cornflower-blue-851925_900xcopy.jpg?v=1705509293
+37,Women's Sunglasses,Accessories,19.99,Black,One Size,Women,https://www.nologoeyewear.com/1171/barcellona-oversize-square-sunglasses.jpg
+38,Men's Belt,Accessories,14.99,Brown,32,Men,https://leatherbeltsonline.com/wp-content/uploads/2020/04/Mens-Snakeskin-Belt-No-Buckle-Black-Adjustable-1.jpg
+39,Women's Scarf,Accessories,16.99,Red,One Size,Women,https://editorialist.com/thumbnail/600/2023/8/026/203/814/26203814~pink_0.webp?width=454&quality=60
+40,Men's Watch,Accessories,49.99,Silver,One Size,Men, https://shop.timexindia.com/cdn/shop/files/tw000u908_c2b025b8-7ec6-432c-a65a-78b9810abb14_500x.jpg?v=1693550766
+41,Women's Handbag,Accessories,39.99,Black,One Size,Women,https://cdna.lystit.com/photos/fbad-2015/07/31/river-island-brown-dark-brown-suede-slouchy-triangle-bag-product-2-766603006-normal.jpeg
+42,Men's Socks,Accessories,8.99,Gray,One Size,Men,https://comfortoneshoes.com/cdn/shop/products/86271-8010071_1800x1800.jpg?v=1677515876
+43,Women's Gloves,Accessories,11.99,Black,One Size,Women,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2yZjKCbZP3k9_AkYgvMI3ZLZjRpXZ696D2w&s
+44,Men's Backpack,Accessories,54.99,Blue,One Size,Men,https://i5.walmartimages.com/asr/bc76de87-b8c3-4b97-a984-e311c2c484d8.98718ea237aabdc6636f8541e79ee80d.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF
+45,Women's Earrings,Accessories,9.99,Gold,One Size,Women,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaGavZl2fbN3x1JtNc8UrKWSh6ttvugEZzzpjAYyiYZRFd0nmB3Wo2Eul6HXjL6EkhYN8&usqp=CAU
+46,Men's Wallet,Accessories,24.99,Black,One Size,Men,https://res.cloudinary.com/wolfandbadger/image/upload/c_pad,h_800,w_800/products/qmrnpxuectoqwobewyir
+47,Women's Necklace,Accessories,14.99,Silver,One Size,Women,https://t4.ftcdn.net/jpg/05/12/99/93/360_F_512999399_EFHd4uEC0EgdDgQrJnSnqlrAGdEBPSkY.jpg
+48,Men's Cologne,Fragrance,39.99,,,Men,https://m.media-amazon.com/images/I/510fCEEO9PL._SX569_.jpg
+49,Women's Perfume,Fragrance,49.99,,,Women,https://c0.wallpaperflare.com/preview/52/620/29/perfume-bottle-isolated-white.jpg
+50,Unisex Cologne,Fragrance,34.99,,,Unisex,https://i.pinimg.com/474x/a6/c2/39/a6c239192983f66c3931ae59efd273f6.jpg

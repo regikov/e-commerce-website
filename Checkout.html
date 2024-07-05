@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/30db37ddcd.js" crossorigin="anonymous"></script>
-  <script defer src="script.js"></script>
-  <link rel="stylesheet" href="style.css">
-  <title>Home Page</title>
+  <script defer src="checkout.js"></script>
+  <link rel="stylesheet" href="stylesheet4.css">
+  <title>Checkout Page</title>
 </head>
 <body>
   <header>
@@ -36,19 +36,20 @@
     </nav>
   </header>
   <main>
-    <div class="banner">
-      <img src="https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Banner Image">
-    </div>
     <div class="collection-search-container">
-      <h1 class="collection-title">Our Collection</h1>
-      <p class="collection-description">At greenLabel, our mission is simple: we bring you stylish and eco-friendly clothing that’s good for you AND for the planet. Shop with us and make a positive impact while looking fantastic!</p>
-      <input type="text" class="search-bar" placeholder="Search...">
+      <h1 class="collection-title">Checkout</h1>
+      <p class="collection-description">Review your items and proceed to payment</p>
     </div>
-    <div id="cardsContainer" class="cardsContainer">
-      <!-- Cards will be dynamically added here by JavaScript -->
+    <div id="cartContainer" class="cardsContainer">
+      <!-- Cart items will be dynamically added here by JavaScript -->
+    </div>
+    <div class="summary">
+      <h2>Summary</h2>
+      <p id="total-items">Total items: 0</p>
+      <p id="total-price">Total price: $0</p>
+      <button id="pay-button" class="button">Pay Now</button>
     </div>
   </main>
   <footer></footer>
 </body>
 </html>
-
